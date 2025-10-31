@@ -1,0 +1,13 @@
+class InvalidDrugError(Exception): pass
+class SupplierNotFoundError(Exception): pass
+class CustomerNotRegisteredError(Exception): pass
+class InsufficientPointsError(Exception): pass
+class InsufficientStockError(Exception): pass
+class ExpiredDrugError(Exception): pass
+class InvalidPaymentError(Exception): pass
+class OrderCancellationError(Exception): pass
+class ShipmentDelayError(Exception): pass
+class EmployeeAccessDeniedError(Exception): pass
+class InvalidPrescriptionError(Exception): pass
+class WarehouseCapacityExceededError(Exception): pass
+class BatchRecallError(Exception): pass
