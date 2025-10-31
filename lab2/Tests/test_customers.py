@@ -2,7 +2,6 @@ import unittest
 from Customer import Customer
 
 class TestCustomerUnit(unittest.TestCase):
-    """Unit тесты для Customer"""
     
     def test_customer_creation(self):
         customer = Customer("Иван Иванов", "ул. Ленина 1", "ivan@mail.ru", "+79990001122", 5000.0)
@@ -20,4 +19,5 @@ class TestCustomerUnit(unittest.TestCase):
         self.assertIsInstance(customer.address, str)
         self.assertIsInstance(customer.email, str)
         self.assertIsInstance(customer.phone, str)
+
         self.assertIsInstance(customer.budget, float)
