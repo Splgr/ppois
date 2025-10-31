@@ -6,7 +6,6 @@ from OverTheCounterDrug import OverTheCounterDrug
 from exceptions import InvalidDrugError
 
 class TestDrugUnit(unittest.TestCase):
-    """Unit тесты для класса Drug"""
     
     def test_drug_creation_with_valid_data(self):
         drug = Drug("Аспирин", "500mg", 100.0, "BATCH001", "room temp", "Обезболивающее")
@@ -17,4 +16,5 @@ class TestDrugUnit(unittest.TestCase):
     def test_drug_creation_raises_error_on_negative_price(self):
         with self.assertRaises(InvalidDrugError) as context:
             Drug("Аспирин", "500mg", -100.0, "BATCH001", "room temp", "Обезболивающее")
+
         self.assertIn("Цена не может быть отрицательной", str(context.exception))
