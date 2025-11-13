@@ -8,7 +8,7 @@
 | **Исключения** | 16 |
 | **Поля** | 179 |
 | **Методы** | 193 |
-| **Ассоциации** | 88 |
+| **Ассоциации** | 87 |
 
 ## Детализация классов
 
@@ -32,7 +32,7 @@
 | CourseBundle | 4 | 5 | Course, Student |
 | CourseCatalog | 2 | 4 | Course |
 | CourseManager | 2 | 4 | Course, Teacher |
-| CourseRecommender | 1 | 2 | CourseCatalog, User |
+| CourseRecommender | 1 | 2 | CourseCatalog |
 | CourseReview | 8 | 7 | Course, Student |
 | CourseSchedule | 2 | 3 |  |
 | DiscussionForum | 2 | 3 | Course, ForumThread, User |
