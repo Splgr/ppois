@@ -8,7 +8,7 @@
 | **Исключения** | 16 |
 | **Поля** | 179 |
 | **Методы** | 193 |
-| **Ассоциации** | 89 |
+| **Ассоциации** | 88 |
 
 ## Детализация классов
 
@@ -48,7 +48,7 @@
 | Module | 4 | 3 | Lesson |
 | Notification | 4 | 3 | User, NotificationService |
 | NotificationService | 1 | 3 | User, Notification |
-| Poll | 4 | 5 | User |
+| Poll | 4 | 5 |  |
 | ProgressTracker | 3 | 4 | Student, Course, Lesson |
 | Quiz | 6 | 6 | QuizQuestion, Student |
 | QuizAttempt | 5 | 3 | Quiz, Student |
