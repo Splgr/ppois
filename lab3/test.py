@@ -54,7 +54,7 @@ from UserAchievement import UserAchievement
 from GamificationEngine import GamificationEngine
 
 from NotificationService import NotificationService
-from notification import Notification
+from Notification import Notification
 from CourseAnnouncement import CourseAnnouncement
 from StudyReminder import StudyReminder
 
@@ -1034,4 +1034,5 @@ class TestFinalCoverage(unittest.TestCase):
 
 
 if __name__ == '__main__':
+
     unittest.main(verbosity=2, failfast=False)
