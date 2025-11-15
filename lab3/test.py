@@ -8,7 +8,7 @@ from enums import UserRole, CourseStatus
 from User import User
 from UserRepository import UserRepository
 from AuthenticationService import AuthenticationService
-from student import Student
+from Student import Student
 from Teacher import Teacher
 from Admin import Admin
 from ContentCreator import ContentCreator
@@ -24,13 +24,13 @@ from LearningContent import LearningContent
 from Lesson import Lesson
 from Module import Module
 from ContentManagementSystem import ContentManagementSystem
-from content_version import ContentVersion
+from ContentVersion import ContentVersion
 from ResourceLibrary import ResourceLibrary
-from learning_resource import LearningResource
+from LearningResource import LearningResource
 
 from Assignment import Assignment
 from AssignmentSubmission import AssignmentSubmission
-from quiz import Quiz
+from Quiz import Quiz
 from QuizQuestion import QuizQuestion
 from QuizAttempt import QuizAttempt
 from Certificate import Certificate
@@ -39,7 +39,7 @@ from DiscussionForum import DiscussionForum
 from ForumThread import ForumThread
 from ForumPost import ForumPost
 from StudyGroup import StudyGroup
-from study_session import StudySession
+from StudySession import StudySession
 from Poll import Poll
 
 from RatingSystem import RatingSystem
