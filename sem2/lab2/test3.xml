@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tournaments>
+  <tournament id="401">
+    <name>Национальный кубок по Футбол Москвы</name>
+    <date>2026-06-20</date>
+    <sport>Футбол</sport>
+    <winner_name>Григорчик Алина Дмитриевна</winner_name>
+    <prize_pool value="8500000.0"/>
+    <winner_earnings value="5100000.0"/>
+  </tournament>
+  
+  <tournament id="402">
+    <name>Серия по Теннис среди профессионалов</name>
+    <date>2026-05-15</date>
+    <sport>Теннис</sport>
+    <winner_name>Балабенко Анастасия Сергеевна</winner_name>
+    <prize_pool value="4200000.0"/>
+    <winner_earnings value="2520000.0"/>
+  </tournament>
+  
+  <tournament id="403">
+    <name>Открытый чемпионат по Хоккей России</name>
+    <date>2026-04-10</date>
+    <sport>Хоккей</sport>
+    <winner_name>Андриевич Виктория Сергеевна</winner_name>
+    <prize_pool value="9500000.0"/>
+    <winner_earnings value="5700000.0"/>
+  </tournament>
+  
+  <tournament id="404">
+    <name>Кубок по Баскетбол Санкт-Петербурга</name>
+    <date>2026-03-25</date>
+    <sport>Баскетбол</sport>
+    <winner_name>Синюкович Иван Дмитриевич</winner_name>
+    <prize_pool value="6800000.0"/>
+    <winner_earnings value="4080000.0"/>
+  </tournament>
+  
+  <tournament id="405">
+    <name>Мастерс по Волейбол Европы</name>
+    <date>2026-02-18</date>
+    <sport>Волейбол</sport>
+    <winner_name>Белый Кирилл Максимович</winner_name>
+    <prize_pool value="3500000.0"/>
+    <winner_earnings value="2100000.0"/>
+  </tournament>
+  
+  <tournament id="406">
+    <name>Гран-при по Плавание Winter Cup</name>
+    <date>2026-01-22</date>
+    <sport>Плавание</sport>
+    <winner_name>Дорошина Анастасия Юрьевна</winner_name>
+    <prize_pool value="1200000.0"/>
+    <winner_earnings value="720000.0"/>
+  </tournament>
+  
+  <tournament id="407">
+    <name>Первенство по Бокс среди любителей</name>
+    <date>2025-12-15</date>
+    <sport>Бокс</sport>
+    <winner_name>Кравченко Максим Александрович</winner_name>
+    <prize_pool value="2800000.0"/>
+    <winner_earnings value="1680000.0"/>
+  </tournament>
+  
+  <tournament id="408">
+    <name>Чемпионат по ММА Summer Open</name>
+    <date>2025-11-28</date>
+    <sport>ММА</sport>
+    <winner_name>Шевченко Екатерина Павловна</winner_name>
+    <prize_pool value="11000000.0"/>
+    <winner_earnings value="6600000.0"/>
+  </tournament>
+  
+  <tournament id="409">
+    <name>Турнир по Киберспорт Москвы</name>
+    <date>2025-10-20</date>
+    <sport>Киберспорт</sport>
+    <winner_name>Лисович Дмитрий Игоревич</winner_name>
+    <prize_pool value="7500000.0"/>
+    <winner_earnings value="4500000.0"/>
+  </tournament>
+  
+  <tournament id="410">
+    <name>Кубок по Гимнастика России</name>
+    <date>2025-09-12</date>
+    <sport>Гимнастика</sport>
+    <winner_name>Тарасова Ольга Владимировна</winner_name>
+    <prize_pool value="1800000.0"/>
+    <winner_earnings value="1080000.0"/>
+  </tournament>
+  
+  <tournament id="411">
+    <name>Мастерс по Бадминтон Европы</name>
+    <date>2025-08-25</date>
+    <sport>Бадминтон</sport>
+    <winner_name>Яковлев Сергей Андреевич</winner_name>
+    <prize_pool value="650000.0"/>
+    <winner_earnings value="390000.0"/>
+  </tournament>
+  
+  <tournament id="412">
+    <name>Серия по Шахматы среди профессионалов</name>
+    <date>2025-07-18</date>
+    <sport>Шахматы</sport>
+    <winner_name>Романова Татьяна Дмитриевна</winner_name>
+    <prize_pool value="880000.0"/>
+    <winner_earnings value="528000.0"/>
+  </tournament>
+  
+  <tournament id="413">
+    <name>Открытый чемпионат по Фигурное катание Москвы</name>
+    <date>2025-06-22</date>
+    <sport>Фигурное катание</sport>
+    <winner_name>Гончаров Артём Павлович</winner_name>
+    <prize_pool value="3800000.0"/>
+    <winner_earnings value="2280000.0"/>
+  </tournament>
+  
+  <tournament id="414">
+    <name>Гран-при по Настольный теннис России</name>
+    <date>2025-05-15</date>
+    <sport>Настольный теннис</sport>
+    <winner_name>Федосеева Мария Игоревна</winner_name>
+    <prize_pool value="920000.0"/>
+    <winner_earnings value="552000.0"/>
+  </tournament>
+  
+  <tournament id="415">
+    <name>Первенство по Лёгкая атлетика Spring Championship</name>
+    <date>2025-04-28</date>
+    <sport>Лёгкая атлетика</sport>
+    <winner_name>Мельников Владимир Сергеевич</winner_name>
+    <prize_pool value="1500000.0"/>
+    <winner_earnings value="900000.0"/>
+  </tournament>
+  
+  <tournament id="416">
+    <name>Кубок по Футбол среди профессионалов</name>
+    <date>2025-03-20</date>
+    <sport>Футбол</sport>
+    <winner_name>Савченко Юлия Александровна</winner_name>
+    <prize_pool value="12000000.0"/>
+    <winner_earnings value="7200000.0"/>
+  </tournament>
+  
+  <tournament id="417">
+    <name>Чемпионат по Теннис Autumn League</name>
+    <date>2025-02-14</date>
+    <sport>Теннис</sport>
+    <winner_name>Тимофеев Николай Дмитриевич</winner_name>
+    <prize_pool value="5200000.0"/>
+    <winner_earnings value="3120000.0"/>
+  </tournament>
+  
+  <tournament id="418">
+    <name>Мастерс по Хоккей Winter Cup</name>
+    <date>2025-01-18</date>
+    <sport>Хоккей</sport>
+    <winner_name>Коваленко Анна Сергеевна</winner_name>
+    <prize_pool value="8800000.0"/>
+    <winner_earnings value="5280000.0"/>
+  </tournament>
+  
+  <tournament id="419">
+    <name>Турнир по Баскетбол Санкт-Петербурга</name>
+    <date>2024-12-22</date>
+    <sport>Баскетбол</sport>
+    <winner_name>Виноградов Павел Максимович</winner_name>
+    <prize_pool value="4500000.0"/>
+    <winner_earnings value="2700000.0"/>
+  </tournament>
+  
+  <tournament id="420">
+    <name>Гран-при по Волейбол Европы</name>
+    <date>2024-11-15</date>
+    <sport>Волейбол</sport>
+    <winner_name>Евдокимова Светлана Игоревна</winner_name>
+    <prize_pool value="2200000.0"/>
+    <winner_earnings value="1320000.0"/>
+  </tournament>
+  
+  <tournament id="421">
+    <name>Первенство по Плавание среди любителей</name>
+    <date>2024-10-28</date>
+    <sport>Плавание</sport>
+    <winner_name>Зайцев Андрей Владимирович</winner_name>
+    <prize_pool value="780000.0"/>
+    <winner_earnings value="468000.0"/>
+  </tournament>
+  
+  <tournament id="422">
+    <name>Кубок по Бокс Москвы</name>
+    <date>2024-09-20</date>
+    <sport>Бокс</sport>
+    <winner_name>Медведева Екатерина Андреевна</winner_name>
+    <prize_pool value="3200000.0"/>
+    <winner_earnings value="1920000.0"/>
+  </tournament>
+  
+  <tournament id="423">
+    <name>Чемпионат по ММА России</name>
+    <date>2024-08-15</date>
+    <sport>ММА</sport>
+    <winner_name>Соловьёв Дмитрий Павлович</winner_name>
+    <prize_pool value="10500000.0"/>
+    <winner_earnings value="6300000.0"/>
+  </tournament>
+  
+  <tournament id="424">
+    <name>Мастерс по Киберспорт Summer Open</name>
+    <date>2024-07-22</date>
+    <sport>Киберспорт</sport>
+    <winner_name>Воробьёва Анастасия Дмитриевна</winner_name>
+    <prize_pool value="6200000.0"/>
+    <winner_earnings value="3720000.0"/>
+  </tournament>
+  
+  <tournament id="425">
+    <name>Турнир по Гимнастика Санкт-Петербурга</name>
+    <date>2024-06-18</date>
+    <sport>Гимнастика</sport>
+    <winner_name>Кузьмин Иван Сергеевич</winner_name>
+    <prize_pool value="1400000.0"/>
+    <winner_earnings value="840000.0"/>
+  </tournament>
+  
+  <tournament id="426">
+    <name>Серия по Бадминтон среди профессионалов</name>
+    <date>2024-05-25</date>
+    <sport>Бадминтон</sport>
+    <winner_name>Богданова Ольга Максимовна</winner_name>
+    <prize_pool value="520000.0"/>
+    <winner_earnings value="312000.0"/>
+  </tournament>
+  
+  <tournament id="427">
+    <name>Открытый чемпионат по Шахматы Европы</name>
+    <date>2024-04-20</date>
+    <sport>Шахматы</sport>
+    <winner_name>Жуков Александр Игоревич</winner_name>
+    <prize_pool value="750000.0"/>
+    <winner_earnings value="450000.0"/>
+  </tournament>
+  
+  <tournament id="428">
+    <name>Гран-при по Фигурное катание Winter Cup</name>
+    <date>2024-03-15</date>
+    <sport>Фигурное катание</sport>
+    <winner_name>Осипова Татьяна Владимировна</winner_name>
+    <prize_pool value="4100000.0"/>
+    <winner_earnings value="2460000.0"/>
+  </tournament>
+  
+  <tournament id="429">
+    <name>Первенство по Настольный теннис Москвы</name>
+    <date>2024-02-22</date>
+    <sport>Настольный теннис</sport>
+    <winner_name>Титов Сергей Александрович</winner_name>
+    <prize_pool value="880000.0"/>
+    <winner_earnings value="528000.0"/>
+  </tournament>
+  
+  <tournament id="430">
+    <name>Кубок по Лёгкая атлетика России</name>
+    <date>2024-01-18</date>
+    <sport>Лёгкая атлетика</sport>
+    <winner_name>Панина Мария Дмитриевна</winner_name>
+    <prize_pool value="1650000.0"/>
+    <winner_earnings value="990000.0"/>
+  </tournament>
+  
+  <tournament id="431">
+    <name>Чемпионат по Футбол Autumn League</name>
+    <date>2023-12-20</date>
+    <sport>Футбол</sport>
+    <winner_name>Денисов Максим Павлович</winner_name>
+    <prize_pool value="14000000.0"/>
+    <winner_earnings value="8400000.0"/>
+  </tournament>
+  
+  <tournament id="432">
+    <name>Мастерс по Теннис среди любителей</name>
+    <date>2023-11-25</date>
+    <sport>Теннис</sport>
+    <winner_name>Аксёнова Юлия Сергеевна</winner_name>
+    <prize_pool value="3800000.0"/>
+    <winner_earnings value="2280000.0"/>
+  </tournament>
+  
+  <tournament id="433">
+    <name>Турнир по Хоккей Санкт-Петербурга</name>
+    <date>2023-10-18</date>
+    <sport>Хоккей</sport>
+    <winner_name>Фролов Андрей Дмитриевич</winner_name>
+    <prize_pool value="7800000.0"/>
+    <winner_earnings value="4680000.0"/>
+  </tournament>
+  
+  <tournament id="434">
+    <name>Гран-при по Баскетбол Европы</name>
+    <date>2023-09-22</date>
+    <sport>Баскетбол</sport>
+    <winner_name>Субботина Екатерина Игоревна</winner_name>
+    <prize_pool value="5500000.0"/>
+    <winner_earnings value="3300000.0"/>
+  </tournament>
+  
+  <tournament id="435">
+    <name>Первенство по Волейбол Spring Championship</name>
+    <date>2023-08-15</date>
+    <sport>Волейбол</sport>
+    <winner_name>Маслов Владимир Александрович</winner_name>
+    <prize_pool value="2800000.0"/>
+    <winner_earnings value="1680000.0"/>
+  </tournament>
+  
+  <tournament id="436">
+    <name>Кубок по Плавание Москвы</name>
+    <date>2023-07-20</date>
+    <sport>Плавание</sport>
+    <winner_name>Терехова Анастасия Павловна</winner_name>
+    <prize_pool value="950000.0"/>
+    <winner_earnings value="570000.0"/>
+  </tournament>
+  
+  <tournament id="437">
+    <name>Чемпионат по Бокс среди профессионалов</name>
+    <date>2023-06-25</date>
+    <sport>Бокс</sport>
+    <winner_name>Гусев Дмитрий Сергеевич</winner_name>
+    <prize_pool value="4200000.0"/>
+    <winner_earnings value="2520000.0"/>
+  </tournament>
+  
+  <tournament id="438">
+    <name>Мастерс по ММА Winter Cup</name>
+    <date>2023-05-18</date>
+    <sport>ММА</sport>
+    <winner_name>Филиппова Ольга Владимировна</winner_name>
+    <prize_pool value="13000000.0"/>
+    <winner_earnings value="7800000.0"/>
+  </tournament>
+  
+  <tournament id="439">
+    <name>Турнир по Киберспорт России</name>
+    <date>2023-04-22</date>
+    <sport>Киберспорт</sport>
+    <winner_name>Карпов Иван Максимович</winner_name>
+    <prize_pool value="8200000.0"/>
+    <winner_earnings value="4920000.0"/>
+  </tournament>
+  
+  <tournament id="440">
+    <name>Серия по Гимнастика Европы</name>
+    <date>2023-03-15</date>
+    <sport>Гимнастика</sport>
+    <winner_name>Сорокина Мария Андреевна</winner_name>
+    <prize_pool value="1100000.0"/>
+    <winner_earnings value="660000.0"/>
+  </tournament>
+  
+  <tournament id="441">
+    <name>Открытый чемпионат по Бадминтон Москвы</name>
+    <date>2023-02-20</date>
+    <sport>Бадминтон</sport>
+    <winner_name>Плотников Сергей Игоревич</winner_name>
+    <prize_pool value="580000.0"/>
+    <winner_earnings value="348000.0"/>
+  </tournament>
+  
+  <tournament id="442">
+    <name>Гран-при по Шахматы Summer Open</name>
+    <date>2023-01-25</date>
+    <sport>Шахматы</sport>
+    <winner_name>Тарасова Елена Дмитриевна</winner_name>
+    <prize_pool value="920000.0"/>
+    <winner_earnings value="552000.0"/>
+  </tournament>
+  
+  <tournament id="443">
+    <name>Первенство по Фигурное катание Санкт-Петербурга</name>
+    <date>2022-12-18</date>
+    <sport>Фигурное катание</sport>
+    <winner_name>Жданов Артём Павлович</winner_name>
+    <prize_pool value="3500000.0"/>
+    <winner_earnings value="2100000.0"/>
+  </tournament>
+  
+  <tournament id="444">
+    <name>Кубок по Настольный теннис России</name>
+    <date>2022-11-22</date>
+    <sport>Настольный теннис</sport>
+    <winner_name>Быкова Татьяна Сергеевна</winner_name>
+    <prize_pool value="720000.0"/>
+    <winner_earnings value="432000.0"/>
+  </tournament>
+  
+  <tournament id="445">
+    <name>Чемпионат по Лёгкая атлетика Autumn League</name>
+    <date>2022-10-15</date>
+    <sport>Лёгкая атлетика</sport>
+    <winner_name>Рыбаков Максим Александрович</winner_name>
+    <prize_pool value="1850000.0"/>
+    <winner_earnings value="1110000.0"/>
+  </tournament>
+  
+  <tournament id="446">
+    <name>Мастерс по Футбол среди профессионалов</name>
+    <date>2022-09-20</date>
+    <sport>Футбол</sport>
+    <winner_name>Нazarova Юлия Игоревна</winner_name>
+    <prize_pool value="16000000.0"/>
+    <winner_earnings value="9600000.0"/>
+  </tournament>
+  
+  <tournament id="447">
+    <name>Турнир по Теннис Европы</name>
+    <date>2022-08-25</date>
+    <sport>Теннис</sport>
+    <winner_name>Беляков Дмитрий Владимирович</winner_name>
+    <prize_pool value="4800000.0"/>
+    <winner_earnings value="2880000.0"/>
+  </tournament>
+  
+  <tournament id="448">
+    <name>Гран-при по Хоккей Москвы</name>
+    <date>2022-07-18</date>
+    <sport>Хоккей</sport>
+    <winner_name>Успенская Анастасия Сергеевна</winner_name>
+    <prize_pool value="9200000.0"/>
+    <winner_earnings value="5520000.0"/>
+  </tournament>
+  
+  <tournament id="449">
+    <name>Первенство по Баскетбол Winter Cup</name>
+    <date>2022-06-22</date>
+    <sport>Баскетбол</sport>
+    <winner_name>Комаров Иван Дмитриевич</winner_name>
+    <prize_pool value="6100000.0"/>
+    <winner_earnings value="3660000.0"/>
+  </tournament>
+  
+  <tournament id="450">
+    <name>Кубок по Волейбол России</name>
+    <date>2022-05-15</date>
+    <sport>Волейбол</sport>
+    <winner_name>Давыдова Екатерина Павловна</winner_name>
+    <prize_pool value="3100000.0"/>
+    <winner_earnings value="1860000.0"/>
+  </tournament>
+</tournaments>
