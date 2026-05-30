@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Заселение гостя</h2>
+
+<form method="POST">
+    <div class="mb-3">
+        <label class="form-label">Выберите бронь</label>
+        <select name="booking_id" class="form-select" required>
+            {% for booking in bookings %}
+            <option value="{{ booking.id }}">
+                {{ booking.id }} | {{ booking.guest.name }} | {{ booking.room.number }}
+            </option>
+            {% endfor %}
+        </select>
+    </div>
+    <button type="submit" class="btn btn-success">Заселить</button>
+</form>
+{% endblock %}

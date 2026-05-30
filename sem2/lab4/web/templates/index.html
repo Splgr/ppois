@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="text-center mt-5">
+    <h1 class="display-4">Добро пожаловать в систему управления отелем</h1>
+    <p class="lead">Выберите действие в верхнем меню</p>
+    <div class="mt-4">
+        <a href="{{ url_for('rooms') }}" class="btn btn-primary btn-lg mx-2">Просмотр номеров</a>
+        <a href="{{ url_for('bookings') }}" class="btn btn-success btn-lg mx-2">Бронирования</a>
+    </div>
+</div>
+{% endblock %}

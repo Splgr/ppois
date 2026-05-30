@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Добавление услуги — {{ booking.guest.name }} ({{ booking.room.number }})</h2>
+
+<form method="POST">
+    <input type="hidden" name="booking_id" value="{{ preselected_booking_id }}">
+
+    <div class="mb-3">
+        <label class="form-label">Тип услуги</label>
+        <select name="service_type" class="form-select" required>
+            <option value="restaurant">Ресторан</option>
+            <option value="spa">СПА</option>
+            <option value="laundry">Прачечная</option>
+            <option value="transfer">Трансфер</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Описание услуги</label>
+        <input type="text" name="description" class="form-control" required placeholder="Например: Ужин на двоих">
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Стоимость (BYN)</label>
+        <input type="number" step="0.01" name="price" class="form-control" required>
+    </div>
+
+    <button type="submit" class="btn btn-warning">Добавить услугу</button>
+    <a href="{{ url_for('bookings') }}" class="btn btn-secondary">Отмена</a>
+</form>
+{% endblock %}

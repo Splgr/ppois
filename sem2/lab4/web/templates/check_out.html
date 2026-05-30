@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Выселение и оплата</h2>
+
+<!-- Карточка с данными брони -->
+<div class="card mb-4 border-danger">
+    <div class="card-header bg-danger text-white">
+        Бронь #{{ booking.id }} — {{ booking.guest.name }}
+    </div>
+    <div class="card-body">
+        <p><strong>Номер:</strong> {{ booking.room.number }} ({{ booking.room.room_type }})</p>
+        <p><strong>Период:</strong> {{ booking.period.start.strftime('%d.%m.%Y') }} — {{ booking.period.end.strftime('%d.%m.%Y') }}</p>
+        <p><strong>Дней:</strong> {{ booking.period.duration_days }}</p>
+        <p><strong>Стоимость номера:</strong> {{ (booking.room.price_per_day * booking.period.duration_days)|round(2) }} BYN</p>
+        
+        {% if booking.service_orders %}
+        <p><strong>Доп. услуги:</strong></p>
+        <ul class="small mb-0">
+            {% for order in booking.service_orders %}
+            <li>• {{ order.description }} — {{ order.price }} BYN</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        
+        <hr>
+        <p class="fs-4 mb-0"><strong>Итого к оплате:</strong> {{ booking.total_amount|round(2) }} BYN</p>
+    </div>
+</div>
+
+<!-- Форма оплаты -->
+<form method="POST" autocomplete="off">
+    <div class="mb-3">
+        <label class="form-label">Вносимая сумма (BYN)</label>
+        <input type="number" step="0.01" min="0" name="payment" 
+               class="form-control" 
+               placeholder="Введите сумму"
+               required>
+        <small class="text-muted">Минимум: {{ booking.total_amount|round(2) }} BYN</small>
+    </div>
+    
+    <button type="submit" class="btn btn-danger">✅ Выселить и оплатить</button>
+    <a href="{{ url_for('bookings') }}" class="btn btn-secondary">Отмена</a>
+</form>
+{% endblock %}

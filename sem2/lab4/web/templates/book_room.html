@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Создать новое бронирование</h2>
+
+<form method="POST">
+    <div class="mb-3">
+        <label class="form-label">Гость</label>
+        <select name="guest_id" class="form-select" required>
+            {% for guest in guests %}
+            <option value="{{ guest.id }}">{{ guest.name }} ({{ guest.id }})</option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Номер</label>
+        <select name="room_number" class="form-select" required>
+            {% for room in rooms %}
+            <option value="{{ room.number }}">{{ room.number }} — {{ room.room_type }} ({{ room.price_per_day }} BYN/сут)</option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <label class="form-label">Дата заселения</label>
+            <input type="date" name="check_in" class="form-control" required>
+        </div>
+        <div class="col-md-6 mb-3">
+            <label class="form-label">Дата выселения</label>
+            <input type="date" name="check_out" class="form-control" required>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Создать бронь</button>
+    <a href="{{ url_for('bookings') }}" class="btn btn-secondary">Отмена</a>
+</form>
+{% endblock %}

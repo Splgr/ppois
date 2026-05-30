@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2 class="mb-4">Активные бронирования</h2>
+
+{% if bookings %}
+    {% for booking in bookings %}
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header bg-info text-white fw-bold">
+            Бронь #{{ booking.id }} — {{ booking.guest.name }}
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4">
+                    <strong>Номер:</strong> {{ booking.room.number }} ({{ booking.room.room_type }})<br>
+                    <strong>Период:</strong> {{ booking.period.start.strftime('%d.%m.%Y') }} — {{ booking.period.end.strftime('%d.%m.%Y') }}<br>
+                    <strong>Статус:</strong> 
+                    <span class="badge bg-{{ 'success' if booking.status == 'checked_in' else 'primary' if booking.status == 'confirmed' else 'secondary' }}">
+                        {{ booking.status|replace('_', ' ')|title }}
+                    </span>
+                </div>
+                <div class="col-md-4">
+                    <strong>Стоимость номера:</strong> {{ (booking.room.price_per_day * booking.period.duration_days)|round(2) }} BYN<br>
+                    <strong>Итого к оплате:</strong> <strong class="fs-5">{{ booking.total_amount|round(2) }} BYN</strong>
+                </div>
+                <div class="col-md-4">
+                    <strong>Услуги:</strong>
+                    {% if booking.service_orders %}
+                    <div class="service-list mt-2">
+                        {% for order in booking.service_orders %}
+                        <div class="d-flex justify-content-between align-items-center small mb-1">
+                            <span>• {{ order.description }} — {{ order.price }} BYN</span>
+                            <a href="{{ url_for('remove_service', booking_id=booking.id, order_id=order.order_id) }}" 
+                               class="btn btn-danger btn-sm py-0 px-2"
+                               onclick="return confirm('Удалить эту услугу?')">
+                                ✕
+                            </a>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% else %}
+                    <em class="text-muted">Услуг нет</em>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+            {% if booking.status == 'confirmed' %}
+                <a href="{{ url_for('check_in_with_id', booking_id=booking.id) }}" 
+                class="btn btn-success btn-sm"
+                onclick="return confirm('Заселить гостя?')">
+                    Заселить гостя
+                </a>
+            {% elif booking.status == 'checked_in' %}
+                <a href="{{ url_for('order_service_with_id', booking_id=booking.id) }}" class="btn btn-warning btn-sm">
+                    + Добавить услугу
+                </a>
+                <a href="{{ url_for('check_out_with_id', booking_id=booking.id) }}" class="btn btn-danger btn-sm">
+                    Выселить и оплатить
+                </a>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+{% else %}
+    <div class="alert alert-info">Нет активных бронирований на данный момент.</div>
+{% endif %}
+
+<div class="mt-4">
+    <a href="{{ url_for('book_room') }}" class="btn btn-primary me-2">Новое бронирование</a>
+    <a href="{{ url_for('register_guest') }}" class="btn btn-secondary">Новый гость</a>
+</div>
+{% endblock %}
