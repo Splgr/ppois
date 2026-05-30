@@ -1,0 +1,9 @@
+{
+  "window_width": 800,
+  "window_height": 700,
+  "board_size": 8,
+  "cell_size": 70,
+  "fps": 60,
+  "bg_music_volume": 0.5,
+  "sound_volume": 0.8
+}
