@@ -1,0 +1,147 @@
+{
+  "rooms": [
+    {
+      "number": "101",
+      "berths": 2,
+      "price_per_day": 150.0,
+      "room_type": "стандарт",
+      "status": "available",
+      "current_booking_id": null
+    },
+    {
+      "number": "102",
+      "berths": 1,
+      "price_per_day": 100.0,
+      "room_type": "эконом",
+      "status": "available",
+      "current_booking_id": null
+    },
+    {
+      "number": "103",
+      "berths": 2,
+      "price_per_day": 160.0,
+      "room_type": "стандарт",
+      "status": "occupied",
+      "current_booking_id": "B0003"
+    },
+    {
+      "number": "201",
+      "berths": 3,
+      "price_per_day": 250.0,
+      "room_type": "люкс",
+      "status": "occupied",
+      "current_booking_id": "B0002"
+    },
+    {
+      "number": "202",
+      "berths": 2,
+      "price_per_day": 200.0,
+      "room_type": "улучшенный",
+      "status": "available",
+      "current_booking_id": null
+    }
+  ],
+  "guests": [
+    {
+      "guest_id": "G0001",
+      "name": "Анна Сидорова",
+      "contact": "+375291112233"
+    },
+    {
+      "guest_id": "G0002",
+      "name": "Максим Иванов",
+      "contact": "+375294445566"
+    },
+    {
+      "guest_id": "G0003",
+      "name": "Кирилл Белый",
+      "contact": "+375336128482"
+    },
+    {
+      "guest_id": "G0004",
+      "name": "Alina Grigorchik",
+      "contact": "+375298765645"
+    }
+  ],
+  "bookings": [
+    {
+      "booking_id": "B0001",
+      "guest_id": "G0001",
+      "room_number": "101",
+      "period": {
+        "start": "2026-02-15T14:00:00",
+        "end": "2026-02-18T12:00:00"
+      },
+      "status": "checked_out",
+      "service_orders": [
+        {
+          "order_id": "O0001",
+          "guest_id": "G0001",
+          "service_type": "restaurant",
+          "description": "Ужин в ресторане",
+          "price": 45.5,
+          "ordered_at": "2026-05-04T16:25:24.367804"
+        }
+      ],
+      "total_paid": 400.0
+    },
+    {
+      "booking_id": "B0002",
+      "guest_id": "G0003",
+      "room_number": "201",
+      "period": {
+        "start": "2026-05-29T00:00:00",
+        "end": "2026-05-31T00:00:00"
+      },
+      "status": "checked_in",
+      "service_orders": [
+        {
+          "order_id": "O0002",
+          "guest_id": "G0003",
+          "service_type": "restaurant",
+          "description": "ужин",
+          "price": 100.0,
+          "ordered_at": "2026-05-04T17:27:02.159303"
+        }
+      ],
+      "total_paid": 0.0
+    },
+    {
+      "booking_id": "B0003",
+      "guest_id": "G0004",
+      "room_number": "103",
+      "period": {
+        "start": "2026-05-23T00:00:00",
+        "end": "2026-05-26T00:00:00"
+      },
+      "status": "checked_in",
+      "service_orders": [
+        {
+          "order_id": "O0003",
+          "guest_id": "G0004",
+          "service_type": "spa",
+          "description": "спа с пузыриками",
+          "price": 50.0,
+          "ordered_at": "2026-05-04T18:00:34.230957"
+        }
+      ],
+      "total_paid": 0.0
+    }
+  ],
+  "employees": [
+    {
+      "employee_id": "E0001",
+      "name": "Иван Петров",
+      "role": "Администратор"
+    },
+    {
+      "employee_id": "E0002",
+      "name": "Мария Соколова",
+      "role": "Портье"
+    }
+  ],
+  "next_guest_id": 5,
+  "next_booking_id": 4,
+  "next_order_id": 4,
+  "next_employee_id": 3
+}
